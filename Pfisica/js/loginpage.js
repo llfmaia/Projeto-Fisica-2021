@@ -4,7 +4,7 @@ btn.addEventListener('click', function(e) {
     var pas = document.getElementById('pass').value
     if((user === 'admin' && pas === 'genomasite') || (user === 'vitor' && pas === 'genomasite') || (user === 'leandro' && pas === 'genomasite')) {
         btn.addEventListener('click', function(e) {
-            window.location.href = ('/html/home.html');          
+            window.location.href = ('html/home.html');          
         })
     
      

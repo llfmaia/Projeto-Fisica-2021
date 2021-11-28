@@ -30,12 +30,12 @@ header{
     background-color: black;
     color: white;
     padding: 3px;
-    font-size: 1.2em;
+    font-size: 0.6em;
     border: 3px solid black;
     transition: all 0.3s;
     cursor: pointer;
     margin: 10px;
-    width: 190px;
+    width: 100px;
     border-radius: 5px;
 }
 
@@ -43,13 +43,14 @@ header{
     background-color: rgb(201, 97, 0);
     transition: all 0.3s;
     width: 210px;
+    font-size: 1.5em;
 }
 
 main h1{
     color: white;
     text-align: center;
     font-family: var(--fonttit);
-    font-size: 4.5em;
+    font-size: 3.5em;
     text-shadow: 1px 1px 3px black;
 }
 
