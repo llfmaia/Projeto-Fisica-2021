@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    --fonttit: 'Gabriela', serif;
+    --fonttxt: 'Open Sans', sans-serif;
+    --fontenormal: Arial, Helvetica, sans-serif;
+
+    --cor0: rgba(255, 255, 255, 0.74);
+    --cor1: #2ed4cc;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    background-color: var(--cor0);
+    margin-bottom: 100px;
+}
+
+.btnheader{
+    font-family: var(--fontenormal);
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-size: 1.2em;
+    border: 3px solid black;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin: 10px;
+    width: 190px;
+    border-radius: 5px;
+}
+
+.btnheader:hover{
+    background-color: rgb(1, 187, 178);
+    transition: all 0.3s;
+    width: 210px;
+}
+
+main h1{
+    color: white;
+    text-align: center;
+    font-family: var(--fonttit);
+    font-size: 4.5em;
+    text-shadow: 1px 1px 3px black;
+}
+
+#secprincipal{
+    background-color: var(--cor0);
+    box-shadow: 4px 3px 5px  rgba(0, 0, 0, 0.219);
+    border: 2px solid black;
+    max-width: 1500px;
+    margin: auto;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#secprincipal h2{
+    font-size: 2em;
+    font-family: var(--fontenormal);
+    margin-bottom: 20px;
+}
+
+#secprincipal p{
+    font-family: var(--fonttxt);
+    font-size: 1.1em;
+    margin-left: 20px;
+}
+
+#secprincipal h3{
+    font-size: 1.4em;
+    font-family: var(--fontenormal);
+    text-decoration: underline;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#secprincipal img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+footer{
+    background-color: white;
+    margin-top: 150px;
+}
+
+footer > img{
+    display: block;
+    margin: auto;
+}

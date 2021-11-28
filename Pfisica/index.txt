@@ -1,0 +1,9 @@
+  <section id="secprincipal">
+           <h2>O que é esse site?</h2>
+           <p>Essa aplicação web foi desenvolvida para concluir um projeto de física lecionado pela professora Flávia do colégio <b> Genoma Sistema de Ensino.</b> O site em questão está em sua segunda versão, trazendo melhorias de desempenho, responsividade com tamanhos de tela distintos e um novo design focado no minimalismo e o máximo aproveitamento de conteúdo.</p> 
+           <div>
+            <div>
+                <img src="../imagens/siteori.png" alt="">
+            </div>
+           </div>
+        </section>
