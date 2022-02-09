@@ -1,10 +1,10 @@
 var btn  = document.getElementById('btn');
 var img = document.getElementById('div2')
 
-btn.addEventListener('click', function(e) {
-    var resUser = document.getElementById('numverificador').value
-    var sec = document.getElementById('secimg');
-    var res = document.getElementById('res')
+btn.addEventListener('click', () => {
+    const resUser = document.getElementById('numverificador').value
+    const sec = document.getElementById('secimg');
+    const res = document.getElementById('res')
 
     if(resUser === '')
         alert('[ERRO] VERIFIQUE OS DADOS E TENTE NOVAMENTE')
