@@ -1,5 +1,7 @@
-var btn  = document.getElementById('btn');
-var img = document.getElementById('div2')
+(
+    () => {
+        const btn  = document.getElementById('btn');
+        const img = document.getElementById('div2')
 
 btn.addEventListener('click', () => {
     const resUser = document.getElementById('numverificador').value
@@ -13,7 +15,7 @@ btn.addEventListener('click', () => {
         if(resUser > 730 && resUser < 50000) {
             sec.style.backgroundColor = 'red'
             res.innerHTML =  `Essa onda tem ${resUser} nanômetros, ela é uma onda Infra-Vermelho<br><br><br>Ondas infravermelhas são um tipo de onda fora do espectro
-            visível do ser humano.São um tipo de radiação eletromagné
+            visível do ser humano.São um tipo de radiação eletromagné   
             tica, que possuem uma frequência superior a luz vermelha.<br><br>`
             img.innerHTML ='<img src="../imagens/infrinha.png" alt="">'
 
@@ -47,3 +49,5 @@ btn.addEventListener('click', () => {
         }
     }
 })
+    }
+)()
